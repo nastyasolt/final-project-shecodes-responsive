@@ -35,6 +35,20 @@ p {
   line-height: 30px;
 }
 
+.navbar {
+  background-color: #caf197 !important;
+  filter: blur(50px);
+  padding: 30px;
+}
+.navbar:hover {
+  filter: blur(0);
+  transition: all 200ms ease-in-out;
+}
+
+.active {
+  color: #000000 !important;
+}
+
 .hero {
   background: var(--secondary-color);
   text-align: center;

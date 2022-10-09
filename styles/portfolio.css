@@ -30,7 +30,6 @@ h2 {
 }
 
 p {
-  font-family: var(--default-font-family);
   font-weight: normal;
   font-size: 16px;
   line-height: 30px;
@@ -50,7 +49,7 @@ p {
 }
 
 .hero h2 {
-  font-family: var(--default-font-family);
+  font-family: var(--heading-font-family);
   font-weight: normal;
   line-height: 1.5;
   font-size: 24px;
@@ -60,15 +59,9 @@ p {
   padding: 160px 30px;
 }
 
-.content-container h1 {
+.content h1 {
   font-size: 64px;
   line-height: 80px;
-}
-
-.content-container h3 {
-  font-size: 24px;
-  line-height: 1.5;
-  font-family: var(--default-font-family);
 }
 
 .content h2 {
@@ -79,7 +72,7 @@ p {
 .content h3 {
   font-size: 24px;
   line-height: 1.5;
-  margin: 20px 0 0;
+
   font-family: var(--default-font-family);
 }
 
@@ -127,9 +120,6 @@ p {
     padding: 80px 20px;
   }
 
-  .hero p {
-    font-size: 24px;
-  }
   .content {
     text-align: center;
     padding: 0;

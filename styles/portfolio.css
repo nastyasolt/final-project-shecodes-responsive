@@ -36,23 +36,31 @@ p {
 }
 
 .navbar {
-  background-color: #caf197 !important;
-  filter: blur(50px);
-  padding: 30px;
+  background-color: transparent;
+  filter: blur(1.5px);
+  backdrop-filter: blur(4px);
+
+  padding: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .navbar:hover {
   filter: blur(0);
   transition: all 200ms ease-in-out;
 }
 
+.nav-item {
+  padding: 0 10px;
+}
+
 .active {
   color: #000000 !important;
+  font-weight: bold;
 }
 
 .hero {
   background: var(--secondary-color);
   text-align: center;
-  padding: 160px 30px;
+  padding: 120px 30px;
 }
 
 .hero p {
@@ -70,7 +78,7 @@ p {
 }
 
 .content-container {
-  padding: 160px 30px;
+  padding: 120px 30px;
 }
 
 .content h1 {
@@ -121,8 +129,9 @@ p {
 }
 
 @media (max-width: 990px) {
-  h1 {
-    font-size: 44px;
+  h1,
+  .content h1 {
+    font-size: 52px;
     line-height: 56px;
   }
 
@@ -130,14 +139,11 @@ p {
     font-size: 44px;
   }
 
-  .hero {
-    padding: 80px 20px;
-  }
-
   .content {
     text-align: center;
     padding: 0;
   }
+
   .project-description {
     padding: 0;
     text-align: center;

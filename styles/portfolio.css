@@ -29,6 +29,10 @@ h2 {
   font-size: 64px;
 }
 
+h4 {
+  font-size: 44px;
+}
+
 p {
   font-weight: normal;
   font-size: 16px;
@@ -143,6 +147,20 @@ nav a:hover {
 
 .project-description {
   padding: 120px 60px;
+}
+
+footer {
+  margin: 60px 0;
+}
+
+footer .contact-box {
+  background-color: var(--secondary-color);
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+
+footer .contact-box p {
+  margin: 0;
 }
 
 footer .email-link {

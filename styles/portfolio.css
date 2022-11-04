@@ -122,6 +122,7 @@ nav a:hover {
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
+  text-decoration: none;
 }
 
 #contact-me-button:hover {
@@ -212,4 +213,15 @@ footer .social-links a:hover {
     padding: 0;
     text-align: center;
   }
+
+
+
+}
+
+@media (max-width: 1000px) {
+  
+  .btn-branding {
+    font-size: 14px;
+  }
+
 }

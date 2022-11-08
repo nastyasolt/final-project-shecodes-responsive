@@ -1,5 +1,5 @@
 :root {
-  --branding-color: rgba(39, 214, 112, 0.425);
+  --branding-color: rgba(59, 214, 124, 0.425);
   --secondary-color: #c0ee9736;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
@@ -66,7 +66,8 @@ nav a:hover {
 }
 
 .hero {
-  background: var(--secondary-color);
+  background: url(../img/1.jpg) fixed ;
+  background-size: cover;
   text-align: center;
   padding: 120px 30px;
 }
@@ -91,7 +92,7 @@ nav a:hover {
 }
 
 .content h1 {
-  font-size: 64px;
+  font-size: 52px;
   line-height: 80px;
 }
 
@@ -123,12 +124,12 @@ nav a:hover {
   line-height: 27px;
   padding: 15px 30px;
   text-decoration: none;
+  box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
+  backdrop-filter: blur(2px);
 }
 
 #contact-me-button:hover {
-  color: var(--branding-color);
-  background: rgb(255, 255, 255);
-
+  color: black;
   transition: all 150ms ease-in-out;
 }
 
@@ -147,7 +148,11 @@ nav a:hover {
 }
 
 .project-description {
-  padding: 120px 60px;
+  padding: 0px 60px;
+}
+
+.project-description h2{
+font-size: 38px;
 }
 
 footer {
@@ -201,8 +206,9 @@ footer .social-links a:hover {
   display: block;
  }
 
-
-
+ .shadow {
+  box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 35%) !important;
+}
 
 
 @media (max-width: 900px) {
@@ -212,9 +218,7 @@ footer .social-links a:hover {
     line-height: 56px;
   }
 
-  h2 {
-    font-size: 44px;
-  }
+ 
   .navbar {
     filter: blur(1px);
     background-color: transparent;
